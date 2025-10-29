@@ -20,11 +20,11 @@ const About = () => {
       <div className="text-center mb-12">
        <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-secondary border-2 border-accent overflow-hidden">
         
-        <img 
-         src="/faith.jpg" 
-         alt="Faith Pius" 
-         className="w-full h-full object-cover" 
-        />
+<img 
+    src="/faith.jpg" 
+    alt="Faith Pius" 
+    className="w-full h-full object-cover" 
+/>
        </div>
        <h1 className="font-playfair text-4xl md:text-5xl font-bold text-foreground mb-3">
         Faith Pius
@@ -36,7 +36,7 @@ const About = () => {
 
       <div className="prose max-w-none space-y-6 text-center mb-12">
        <p className="text-muted-foreground leading-relaxed">
-        I'm Faith Pius, a Nigerian fashion designer and creative passionate about storytelling through design. My experience spans concept sketching, digital illustration, and client styling.
+        I'm Faith Pius, a Nigerian fashion designer and a creative passionate about storytelling through design. My experience spans concept sketching, digital illustration, and client styling.
        </p>
        <p className="text-muted-foreground leading-relaxed">
         I combine creativity and structure to deliver design visuals that connect with elegance, purpose, and emotion.
