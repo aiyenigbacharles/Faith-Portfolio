@@ -13,6 +13,10 @@ import portfolio9 from "@/assets/Port 7.png";
 import portfolio10 from "@/assets/Port 8.jpg";
 import portfolio11 from "@/assets/Port 11.jpg";
 import portfolio12 from "@/assets/Port 9.jpg";
+import portfolio13 from "@/assets/Port 12.jpg";
+import portfolio14 from "@/assets/Port 13.jpg";
+import portfolio15 from "@/assets/Port 14.jpg";
+import portfolio16 from "@/assets/Port 15.jpg";
 
 const portfolioItems = [
   {
@@ -44,6 +48,16 @@ const portfolioItems = [
     id: 2,
     sketch: portfolio11,
     final: portfolio12,
+  },
+    {
+    id: 2,
+    sketch: portfolio13,
+    final: portfolio14,
+  },
+    {
+    id: 2,
+    sketch: portfolio15,
+    final: portfolio16,
   },
 ];
 
@@ -86,7 +100,7 @@ const Portfolio = () => {
                       className="w-full h-auto"
                     />
                   </div>
-                  <p className="text-center mt-2 text-sm text-muted-foreground">Sketch</p>
+                  {/* <p className="text-center mt-2 text-sm text-muted-foreground">Sketch</p> */}
                 </div>
 
                 {/* Final Design */}
@@ -101,7 +115,7 @@ const Portfolio = () => {
                       className="w-full h-auto"
                     />
                   </div>
-                  <p className="text-center mt-2 text-sm text-muted-foreground">Final Design</p>
+                  {/* <p className="text-center mt-2 text-sm text-muted-foreground">Final Design</p> */}
                 </div>
               </div>
             ))}
