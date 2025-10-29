@@ -21,7 +21,7 @@ const About = () => {
        <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-secondary border-2 border-accent overflow-hidden">
         
         <img 
-         src="public/faith.jpg" 
+         src="/faith.jpg" 
          alt="Faith Pius" 
          className="w-full h-full object-cover" 
         />
